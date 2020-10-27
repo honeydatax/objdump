@@ -1,0 +1,5 @@
+gcc -O -g -c printfs.c -o printfs.o
+as putss.S -o putss.o
+gcc  printfs.o putss.o -o putcc
+./putcc
+file putcc
