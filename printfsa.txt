@@ -1,0 +1,3 @@
+as printfs.c -o printfs.o
+gcc putss.c printfs.o -o putss
+./putss
