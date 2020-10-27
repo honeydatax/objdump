@@ -1,0 +1,3 @@
+gcc -g -O -c add.c -o add.o
+gcc addc.c add.o -o add
+./add 5 4
