@@ -1,0 +1,3 @@
+as hellol.S -o hello.o
+ld hello.o -o hello
+./hello
